@@ -14,8 +14,8 @@ void loop()
   for(i=13;i>=7;i--)
   {
   	digitalWrite(i, HIGH);
-  	delay(500); // Wait for 1000 millisecond(s)
+  	delay(500);
   	digitalWrite(i, LOW);
-  	delay(500); // Wait for 1000 millisecond(s)
+  	delay(500);
   }
 }
